@@ -4,11 +4,12 @@ body {
 
 .quadrado {
     text-align: center;
-    width: 50px;
+    width: 20vw;
+    height: 20vh;
     background: #eee;
     display: inline-block;
     padding: 40ox;
-    font-size: 60px;
+    font-size: 17vmin;
     margin: 5px;
     cursor: pointer;
     color: #eee;
@@ -20,9 +21,9 @@ body {
 }
 
 button {
+    font-size: 22px;
     margin-top: 10px;
-    width: 100px;
-    height: 30px;
     background-color: #eee;
     cursor: pointer;
+    border-radius: 10px;
 }
