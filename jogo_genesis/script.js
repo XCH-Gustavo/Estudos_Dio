@@ -33,7 +33,7 @@ let lightColor = (element, number) => {
 
     setTimeout(() => {
         element.classList.remove('selected')
-    });
+    }, number + 250);
 }
 
 //checa se os botoes clicados são os mesmo da ordem gerada no jogo
@@ -82,7 +82,7 @@ let nextLevel = () => {
 
 //função para game over
 let gameOver = () => {
-    alert(`Pontuação: ${score}!\nVocê perdeu o jogo!\nClique em OK para iniciar um novo jogo`)
+    alert(`Pontuação: ${score-1}!\nVocê perdeu o jogo!\nClique em OK para iniciar um novo jogo`)
     order = []
     clickedOrder = []
 
