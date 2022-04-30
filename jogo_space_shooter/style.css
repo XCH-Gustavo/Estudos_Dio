@@ -1,0 +1,16 @@
+body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background-color: cornflowerblue;
+}
+
+#main-play-area {
+    background-color: black;
+    background-image: url(img/space.png);
+}
